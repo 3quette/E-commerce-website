@@ -1,0 +1,526 @@
+
+/*HEADER*/
+
+.logo img{
+	width: 100%;
+}
+.navigation{
+	text-align: center;
+	padding-top: 35px;
+}
+.navigation ul{
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 0;
+}
+.navigation ul li{
+	display: inline-block;
+
+}
+.navigation ul li a{
+	color: black;
+	font-size: 16px;
+	padding: 0 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-right: 2px solid black;
+
+}
+.icons{
+	text-align: right;
+	padding-top: 30px;
+}
+.icons ul{
+	display: inline-block;
+	
+}
+.icons ul li{
+	display: inline-block;
+	margin-left: 10px;
+
+}
+.icons ul li a{
+	display: inline-block;
+
+}
+.icons ul li a img{
+	width: 30px;
+	display: inline-block;
+}
+
+/*HOME*/
+.home_img img{
+    width: 100%;
+}
+.motive{
+	border:8px solid white;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 40%;
+	margin-left: 60%;
+
+}
+.motive h1{
+	font-size: 94px;
+	line-height: 97px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Cooper BT";
+	text-align: center;
+	filter: drop-shadow(3.078px 3.94px 1.5px #000000);
+}
+.motive p{
+	width: 724px;
+	height: 91px;
+	font-size: 16px;
+	line-height: 31px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+}
+.motive button{
+	background-color: #b0a171;
+	color: #ffffff;
+	border-radius: 0;
+	position:absolute;
+	border: none;
+	margin-left: 40%;
+	
+}
+.about_div h2{
+	font-size: 28px;
+	line-height: 38px;
+	color: #b0a171;
+	font-weight: bold;
+	font-family: "Cooper BT";
+}
+.about_div h1{
+	font-size: 74px;
+	line-height: 76px;
+	color: #333333;
+	font-weight: bold;
+	font-family: "Cooper BT";
+}
+.about_div p{
+	width: 586px;
+	font-size: 16px;
+	color: #666666;
+	font-weight: 400;
+	font-family: "Poppins";
+
+}
+.about_div button{
+	background-color: #b0a171;
+	color: #ffffff;
+	border-radius: 0;
+}
+.about_img img{
+	width: 100%;
+}
+
+.Product{
+	background-color: #ebebea;
+	text-align: center;
+
+}
+.Product h1{
+	font-size: 28px;
+	line-height: 38px;
+	color: #b0a171;
+	font-weight: bold;
+	padding-top: 2%;
+	font-family: "Cooper BT";
+	}
+.Product h2{
+	font-size: 74px;
+	line-height: 76px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "Cooper BT";
+}
+.Product p{
+	font-size: 16px;
+	line-height: 31px;
+	color: #666666;
+	font-weight: 400;
+	font-family: "Poppins";
+}
+
+.product_images ul{
+	list-style: none;
+	display: flex;
+	}
+.product_images ul li{
+	margin-right: 3%;
+
+	
+
+}
+.product_images h3{
+	color: #b0a171;
+	font-weight: bold;
+	font-family: "Cooper BT";
+}
+.btn_prd{
+	color: #b0a171;
+	background-color:#ebebea;
+	border-color: #b0a171;
+	border-radius: 0;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.btn_Subs{
+	background-color: #b0a171;
+	color: #ffffff;
+	border-radius: 0;
+	border: none;
+	font-size: 16px;
+	padding: 1%;
+}
+
+.Product h4{
+	font-size: 52px;
+	color: #180d0a;
+	font-weight: 300;
+	font-family: "Cooper BT";
+	text-align: center;
+}
+.Product input{
+	background-color: #ebebea;
+	border: none;
+	padding: 1% 1%;
+	width: 50%;
+}
+
+/*FOOOTER*/
+.footer{
+	background-color: #ebebea;
+	margin-top: 5%;
+	text-align: center;
+	padding-top: 5%;
+	width: 100%;
+}
+.footer p{
+	border-top: 2px solid black;
+	border-width: 5%;
+	font-size: 16px;
+	color: #666666;
+	padding-top: 3%;
+	font-family: "Poppins";
+}
+.footer_links{
+	text-align: center;
+	padding-top: 35px;
+	width: 100%;
+	margin-left: 50%;
+}
+.footer_links ul{
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 0;
+}
+.footer_links ul li{
+	display: inline-block;
+
+}
+.footer_links ul li a{
+	color: black;
+	font-size: 16px;
+	padding: 0 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.footer img{
+	padding-top: 2%;
+}
+
+/*ABOUT US*/
+.about_head{
+	position: absolute;
+	bottom: 50%;
+	left: 10%;
+}
+.about_head h1{
+	font-size: 90px;
+	letter-spacing: 2px;
+	color: #333333;
+	font-family: "Cotton Candies";
+}
+.about_img img{
+	height: 10%;
+}
+.img_para p{
+	font-size: 16px;
+	color: #666666;
+	font-weight: 400;
+	font-family: "Poppins";
+}
+.delivery{
+	border: dashed black 1px;
+	border-radius: 10px;
+	margin-top: 20%;
+}
+.delivery img{
+	position: absolute;
+	padding-top: 20px;
+}
+.delivery h3{
+	margin-left: 35%;
+}
+.delivery p{
+	margin-left: 35%;
+}
+
+.delivery2{
+	border: dashed red 1px;
+	border-radius: 10px;
+	margin-top: 20%;
+}
+.delivery2 img{
+	position: absolute;
+}
+.delivery2 h3{
+	margin-left: 35%;
+}
+.delivery2 p{
+	margin-left: 35%;
+}
+
+/* CONTACT */
+.contact_form{
+	border-style: ridge;
+	margin-top: 15%;
+	padding-left: 2%;
+	
+}
+.con_heading{
+	position: relative;
+	margin-top: 20%;
+	margin-bottom: 30%;
+	color: white;
+}
+.con_heading h1{
+	font-family: 'CooperBT-Bold';
+	font-size: 130px;
+}
+.form_c{
+	border: none;
+	box-shadow: 0px 0px 10px 0px #d1d1d1;
+}
+.form_text{
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: 2px solid #d1d1d1;
+	/*box-shadow : 20px 20px 50px 20px rgb(185, 179, 179);*/
+}
+.form1{
+	border :none;
+}
+.form1 form{
+	margin-bottom: 10%;
+	border: none;
+	padding: 5% 5%;
+}
+#name_label{
+	margin-bottom: 2%;
+}
+#mail_label{
+	margin-left: 40%;
+	margin-bottom: 2%;
+}
+#msg_label{
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+#name_input{
+	width: 45%;
+	padding: 1% 2%;
+	border: 1px solid gray;
+	border-radius: 20px;
+	margin-bottom: 2%;
+}
+#email_input{
+	margin-left: 5%;
+	width: 45%;
+	padding: 1% 2%;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+#msg_input{
+	padding: 1% 2%;
+	padding-bottom: 10%;
+	width: 96%;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+#send_btn{
+	margin-top: 2%;
+	padding: 1% 2%;
+	background-color: #eb1b23;
+	color: white;
+	border: none;
+}
+.form2{
+	border :none;
+	box-shadow: 0px 0px 10px 0px #d1d1d1;
+}
+.contact_heading{
+	padding: 2% 2%;
+	padding-left: 5%;
+	border-bottom: 2px solid #d1d1d1;
+}
+.contact_heading h4{
+	font-family: 'Poppins, Regular';
+	font-size: 24px;
+	font-weight: bold;
+}
+.address{
+	border-bottom: 2px solid #d1d1d1;
+}
+.phone{
+	border-bottom: 2px solid #d1d1d1;
+}
+.email{
+	border-bottom: 2px solid #d1d1d1;
+}
+.add_img img{
+	width: 15%;
+	position: absolute;
+	padding: 2% 2%;
+	padding-top: 4%;
+	margin-left: 5%;
+}
+.address_txt{
+	position: relative;
+	margin-left: 25%;
+	padding: 2% 2%;
+}
+.social_logos{
+	padding-left: 15%;
+	padding-bottom: 4%;
+	padding-top: 5%;
+}
+.social_logos img{
+	width: 15%;
+	background-color: lightgrey;
+	border: solid lightgrey;
+	border-radius: 30px;
+	padding: 2% 2%;
+	margin: 1% 2%;
+}
+.form_head{
+	border-bottom: #7c7c7c 2px solid;
+	padding-bottom: 2%;
+}
+
+/* CART */
+.cart_table{
+	margin-top: 10%;
+
+}
+.cart_table table th{
+	background-color: red;
+	color:white;
+}
+
+.cart_table button{
+	border: none;
+	border-radius: 2px;
+}
+.cart_table img{
+	margin-right: 2%;
+}
+.cart_table table button{
+	border-radius: 15%;
+	
+}
+#upd_cart{
+	float:right;
+}
+/* OUR MENU */
+.menu_content{
+	text-align: center;
+	margin-bottom: 20%;
+}
+.menu_content h1{
+	font-size: 95px;
+	letter-spacing: 2px;
+	color: #333333;
+	font-family: "Bebrush";
+}
+.menu_toggle ul li a{
+	color: black;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.menu_items{
+	border: 1px solid black;
+}
+.menu_items img{
+	padding: 1%;
+	float: left;
+	padding-right: 3%;
+	margin-bottom: 2%;
+	border: none;
+}
+.menu_items span{
+	margin-top: 5%;
+}
+.menu_items button{
+	color:red;
+}
+
+.menu_items2{
+	border: 1px solid black;
+	float: right;
+}
+.menu_items2 img{
+	padding: 1%;
+	float: left;
+	padding-right: 3%;
+	margin-bottom: 2%;
+}
+.menu_items2 span{
+	margin-top: 5%;
+}
+.menu_items2 button{
+	color:red;
+}
+
+
+/* MENU DETAILS */
+
+.details_items img{
+	float: left;
+}
+.details_items span{
+	margin-top: 5%;
+}
+.details_items button{
+	color:red;
+}
+.details_toggle {
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+.details_toggle ul li a{ 
+	color: black;
+	background-color: lightgray;
+	text-align: center;
+}
+/*CHECKOUT*/
+.btn_cpn{
+	background-color: red;
+	color: #ffffff;
+	border: none;
+	font-size: 16px;
+	padding: 1%;
+}
+.checkout_summary{
+	background-color: pink;
+	padding: 10%;
+	border-radius: 5%;
+}
